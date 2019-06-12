@@ -1,0 +1,29 @@
+{
+  "name": "dogs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ocaml": "~4.7.1000",
+    "@opam/dune": "*",
+    "@opam/lambda-runtime": "*",
+    "@opam/now": "*",
+    "@opam/httpaf": "*",
+    "@opam/httpaf-lwt-unix": "*",
+    "@opam/logs": "*",
+    "@opam/fmt": "*",
+    "@opam/reason": " *",
+    "@opam/ocamlfind": " *"
+  },
+  "devDependencies": {
+    "@opam/merlin": "*"
+  },
+  "resolutions": {
+    "@opam/httpaf-lwt-unix": "inhabitedtype/httpaf:httpaf-lwt-unix.opam#fa9dc4e",
+    "@opam/httpaf": "inhabitedtype/httpaf:httpaf.opam#fa9dc4e",
+    "@opam/lambda-runtime": "anmonteiro/aws-lambda-ocaml-runtime:lambda-runtime.opam#9b95ff3",
+    "@opam/now": "anmonteiro/aws-lambda-ocaml-runtime:now.opam#9b95ff3"
+  }
+}

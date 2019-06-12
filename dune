@@ -1,0 +1,10 @@
+(executable
+ (name basic)
+ (modes byte)
+ (link_flags (-linkall))
+ (libraries now logs.fmt fmt.tty httpaf compiler-libs.toplevel findlib.top))
+
+(env
+ (static
+  (flags
+   (:standard -ccopt -static))))
